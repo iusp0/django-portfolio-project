@@ -1,0 +1,33 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}
+Iusupov Fikrat
+{% endblock %}
+
+
+
+{% block content %}
+    <div class="container">
+        <div class="title_content">
+            <img src="{% static 'main/photo.jpg' %}" alt="img" class="personal_photo" width="35%" height="35%">
+            <div class="personal_text">
+                <h1 class="title">Iusupov Fikrat Junior fullstack developer from Kyrgyzstan</h1>
+            </div>
+        </div>
+    </div>
+    <div class="about_content">
+        <div class="portfolio container">
+            <h1 class="about_title" id="about">About me</h1>
+            <div class="about_text">
+                <p> Hi, I'm Fikrat – Junior fullstack developer from Kyrgyzstan. 
+                I'm interested in programming and everything connected with it.</p>
+
+                <p> I'm studying at courses "Web and Backend programs" in IT-Academy.</p>
+                
+                <p> Ready to implement excellent projects
+                 with wonderful people.</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
